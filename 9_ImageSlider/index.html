@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--google fonts-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Roboto:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <!--font awesome-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+    />
+    <!--css / titel-->
+    <link rel="stylesheet" href="style.css" />
+    <title>Responsive Image Slider</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="image-container">
+        <img src="image1.jpg" id="content1" class="active" />
+        <img src="image2.jpg" id="content2" />
+        <img src="image3.jpg" id="content3" />
+        <img src="image4.jpg" id="content4" />
+      </div>
+
+      <div class="dot-container">
+        <button></button>
+        <button></button>
+        <button></button>
+        <button></button>
+      </div>
+
+      <button id="prev" onclick="prev()">&lt;</button>
+
+      <button id="next" onclick="next()">&gt;</button>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

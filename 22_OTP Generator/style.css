@@ -1,0 +1,50 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: darkred;
+}
+
+.container {
+  background-color: #1a1820;
+  width: min(37.5em, 90%);
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  padding: 3em;
+  border-radius: 0.5em;
+}
+
+h1{
+    text-align: center;
+    font-weight: 500;
+    color: #fff;
+
+}
+
+button{
+    background-color: #1b76f2;
+    font-size: 1em;
+    display: block;
+    margin: 2em auto;
+    padding: 1em;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 0.3em;
+}
+
+#otpDisplay{
+    font-size: 1em;
+    background-color: #2a292e;
+    color: #fff;
+    letter-spacing: 1em;
+    text-align: center;
+    padding: 1em 0;
+}
+
